@@ -1,0 +1,21 @@
+{
+  "name": "mailservice",
+  "version": "1.0.0",
+  "description": "Email service",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "email",
+    "mailgun",
+    "sendgrid"
+  ],
+  "author": "Endry Lo",
+  "license": "ISC",
+  "dependencies": {
+    "@sendgrid/mail": "^6.2.1",
+    "async": "^2.6.0",
+    "mailgun-js": "^0.16.0"
+  }
+}
