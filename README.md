@@ -11,15 +11,22 @@ To run this service:
 setup for Mailgun
 
 set the following environment variables:
+```
 export MAILGUN_API_KEY=someAPIKey
 export MAILGUN_DOMAIN=someDomain
+```
 
 setup for Sendgrid
-
 set the following environment variable:
+```
 export SENDGRID_API_KEY=someAPIKey
+```
 
+run this command:
+
+```
 node index.js
+```
 
 The above will start the server at port 8888 and ready to respond to request.
 
@@ -31,11 +38,12 @@ Set Content-Type header to application/JSON
 
 Send the below JSON payload as example:
 
+```
 {
   "from": "Excited User <eager.low@samples.org>",
   "to": "blah_blah@gmail.com, foo_bar@yahoo.com",
   "subject": "EMAIL TESTING!",
   "text": "Email sent with API testing. Node JS is awesome bro!"
 }
+```
 
-Note:
