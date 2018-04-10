@@ -47,3 +47,6 @@ Send the below JSON payload as example:
 }
 ```
 
+# Note
+
+Checkout https://github.com/elo8/mail-app.git and run the app which will invoke this service for testing in your laptop
